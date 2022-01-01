@@ -1,0 +1,37 @@
+Enter five customers 
+a
+b
+c
+d
+e
+The customer name in reverse order are: e
+The customer name in reverse order are: d
+The customer name in reverse order are: c
+The customer name in reverse order are: b
+The customer name in reverse order are: a
+Enter five integers one number per line
+1
+2
+3
+4
+5
+Items are : index0 =1
+Items are : index1 =2
+Items are : index2 =3
+Items are : index3 =4
+Items are : index4 =5
+Sum is :15
+Average is :3
+Enter five integers one number per line
+2
+3
+9
+8
+7
+Items are : index0 =2
+Items are : index1 =3
+Items are : index2 =9
+Items are : index3 =8
+Items are : index4 =7
+The sum of the numbers = 7
+The average of the numbers = 1
