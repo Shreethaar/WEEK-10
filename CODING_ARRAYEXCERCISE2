@@ -1,0 +1,32 @@
+package myARRAY;
+
+import java.util.Scanner;
+
+public class array2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum;
+		String[] name= new String[5];
+        int[][] sales =new int [3][3];
+        sum=0;
+        Scanner a= new Scanner(System.in);
+        System.out.println("Enter sales per line ");
+        for (int i = 0; i <sales.length; i++) {
+        	for (int y = 0; y <sales.length; y++) {
+        		sales[i][y]=a.nextInt();
+             	sum=sum+sales[i][y];
+            }
+        }
+       
+        
+        for (int i = 0; i <sales.length; i++) {
+        	for (int y = 0; y <sales.length; y++) {
+        		System.out.println("i="+i+" y="+y);
+             	System.out.println("Value for sales is" +sales[i][y]);
+            }
+        }
+        System.out.println("The sum of the sales is "+sum);
+        System.out.println("The average of the sales is "+sum/sales.length);
+    }	
+}
