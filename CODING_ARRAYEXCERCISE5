@@ -1,0 +1,42 @@
+package myARRAY;
+
+import java.util.Scanner;
+
+public class array5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int row;
+
+		int col;
+
+		int matrix[][] = new int[10][10];
+		Scanner scan = new Scanner(System.in);
+		for (row = 0; row < matrix.length; row++)
+		{
+		    for ( col = 0; col < matrix[row].length; col++)
+			System.out.println(matrix[row][col]);
+			 System.out.println();
+		}
+
+			 for (row = 0; row < matrix.length; row++) {
+				 System.out.println("Enter ten integers one number per line");
+				  for (col = 0; col < matrix[row].length; col++) {
+				   matrix[row][col] = scan.nextInt();
+				   }
+				  }
+
+			 int largest;
+
+			 	for (row = 0; row < matrix.length; row++)
+			 	{
+			 		largest = matrix[row][0];
+			 		for (col = 1; col < matrix[row].length; col++) {
+			 			if (largest < matrix[row][col]) {
+			 				largest = matrix[row][col];
+			 		System.out.println("The largest element of row" + (row+1)+ "=" + largest);}
+			 		}
+}     
+	}
+
+}
