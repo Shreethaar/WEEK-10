@@ -1,0 +1,59 @@
+package myARRAY;
+
+import java.util.Scanner;
+
+public class array4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] sales = new double[10];
+		int x;
+		Scanner input = new Scanner(System.in);
+		for (x = 0; x < sales.length;x++) {
+        sales[x] = 10.00;
+		System.out.println(sales[x]);
+		}
+		
+		int index;
+		System.out.println("Enter ten integers one number per line");
+		for (index = 0; index < sales.length;index++) {
+		  sales[index] = input.nextDouble();
+		}
+
+        for(index = 0; index < sales.length;index++) {
+	       System.out.print(sales[index] + " ");
+        }
+
+        double sum, average;
+
+        sum = 0;
+        System.out.println("\nEnter ten integers number per line for calculated sum and average");
+        for(index = 0; index < sales.length;index++) {
+        	sales[index] = input.nextDouble();
+        	sum = sum + sales[index];
+        
+        if (sales.length != 0) {
+            average = sum / sales.length;
+            System.out.println("\nThe average is "+average);
+        }
+        else {
+            average = 0.0;
+            System.out.println("\nThe average is "+average);
+        }
+        }
+        int maxIndex;
+        double largestSale;
+
+        maxIndex = 0;
+
+        for(index = 1; index<sales.length;index++) {
+           if (sales[maxIndex] < sales[index]) {
+               maxIndex = index;}
+        largestSale = sales[maxIndex];
+        System.out.println("The max index is "+largestSale);}
+
+
+
+	}
+
+}
