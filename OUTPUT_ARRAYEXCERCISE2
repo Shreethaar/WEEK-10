@@ -1,0 +1,30 @@
+Enter sales per line 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+i=0 y=0
+Value for sales is1
+i=0 y=1
+Value for sales is2
+i=0 y=2
+Value for sales is3
+i=1 y=0
+Value for sales is4
+i=1 y=1
+Value for sales is5
+i=1 y=2
+Value for sales is6
+i=2 y=0
+Value for sales is7
+i=2 y=1
+Value for sales is8
+i=2 y=2
+Value for sales is9
+The sum of the sales is 45
+The average of the sales is 15
